@@ -24,6 +24,11 @@ export default function Navbar() {
               About Us
             </a>
           </li>
+          <li className="hidden md:block">
+            <a href="#services-section" className="transition">
+              Our Services
+            </a>
+          </li>
           <li className="p-2 bg-blue-500 rounded-md">
             <a href="#contact-section"  className="transition text-base text-white font-extrabold">
               CONTACT

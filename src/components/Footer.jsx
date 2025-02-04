@@ -1,23 +1,38 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
-
   return (
-    <footer className="bg-gray-200 py-6">
-      <div className="max-w-6xl mx-auto px-4 text-center">
-        <p className="text-gray-600">&copy; 2009-2023 Dircet Drywall INC. All rights reserved.</p>
-        <div className="mt-4">
-          <a href="mailto:directdrywall@gmail.com" className="text-gray-600 hover:text-gray-900 mx-2">
-            Email
+    <footer className="bg-gray-800 text-white py-8">
+      <div className="max-w-6xl mx-auto px-4 text-center space-y-6">
+        {/* Company Name */}
+        <h3 className="text-2xl font-bold tracking-wide">Direct Drywall INC</h3>
+
+        {/* Contact Links */}
+        <div className="flex flex-wrap justify-center gap-6">
+          <a
+            href="mailto:directdrywall@gmail.com"
+            className="text-gray-300 hover:text-white transition"
+          >
+            Email: sullydirectdrywall@yahoo.com
           </a>
-          <a href="tel:+353669157436" className="text-gray-600 hover:text-gray-900 mx-2">
-            Phone/Fax
+          <a
+            href="tel:+353669157436"
+            className="text-gray-300 hover:text-white transition"
+          >
+            Phone/Fax: (617) 839-1654
           </a>
-          <a href="tel:+353860689704" className="text-gray-600 hover:text-gray-900 mx-2">
-            Mobile
+          <a
+            href="tel:+353860689704"
+            className="text-gray-300 hover:text-white transition"
+          >
+            Mobile: (617) 839-1654
           </a>
         </div>
+
+        {/* Copyright */}
+        <p className="text-gray-400 text-sm">
+          &copy; 2025 Direct Drywall INC. All rights reserved.
+        </p>
       </div>
     </footer>
   );
